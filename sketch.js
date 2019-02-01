@@ -19,8 +19,8 @@ function draw() {
 	background(255,bg,z);
 	for (var i = 0; i <= width; i+=35) {
 		for (var j = 0; j <= height; j+=35) {
-			fill(random(255));
-			ellipse(i,j,10,10,700);
+			fill(random(255),random(255));
+			ellipse(i,j,10,10);
 		}
 
 	}
